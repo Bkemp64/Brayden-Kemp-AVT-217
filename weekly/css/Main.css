@@ -19,7 +19,7 @@ font-style: normal;
 }
 
 #wrapper{
-	background-color:antiquewhite;
+	background-color:wheat;
 	float:left;
 	padding: 0 32%;
 	
@@ -43,17 +43,17 @@ font-style: normal;
 
 a:link  {
 	
-	color: lightcoral;
+	color:mediumvioletred;
 	text-decoration: none;
 }
 
 a:visited {
-  color: darkblue;
+  color: darkred;
 }
 
 a:hover  {
 	
-	color:burlywood;
+	color:darkcyan;
 	text-decoration: underline;
 }
 
