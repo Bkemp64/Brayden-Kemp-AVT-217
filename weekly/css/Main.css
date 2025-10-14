@@ -16,19 +16,20 @@ body {
 font-weight: 400;
 font-style: normal;
 	line-height: 1.7em;
+	background-color:wheat;
 }
 
 #wrapper{
 	background-color:wheat;
 	float:left;
-	padding: 0 32%;
+	padding: 0 34%;
 	
 }
 
 .weekly {
 	width:45%;
 	float:left;
-	margin: 0 5%;
+	margin: 0 0%;
 }
 
 
