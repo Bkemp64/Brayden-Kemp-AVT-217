@@ -29,8 +29,33 @@ img {
 	padding: 20px 50px;
 }
 
+
 .insidebox2 {
 	padding: 15px 23px;
 	background-color: blueviolet;
 	
 }
+
+.Box3 {
+  position: static;
+  border: 3px solid #73AD21;
+}
+
+.box4 {
+  position: relative;
+  left: 30px;
+  border: 3px solid #D96969;
+}
+
+.Box5 {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  border: 2px solid #4CAF50;
+}
+
+
+
+
+
+
