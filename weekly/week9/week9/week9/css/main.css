@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/9866650.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+#container {
+
+	margin-top: 40vh;
+	
+  }
+
+  p {
+	 
+	  
+font-family: "fiona", sans-serif;
+font-weight: 400;
+font-style: normal;
+	  font-size: 100px;
+	  color: darkred;
+	  
+	  
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+ 
+		background-image: none;
+		
+		
+    }
+	  
+	#container {
+ 
+		margin-top: 20vh;
+		
+    }
+	   
+    p {
+		
+
+    }
+	  
+	  #front   {
+		  
+   
+font-family: "selfie-neue-round", sans-serif;
+font-weight: 400;
+font-style: normal;
+		  text-transform: capitalize;
+		  font-size: 95px;
+		  color: crimson;
+		  
+	  }
+	#cursive {
+		
+		text-transform: capitalize;
+font-family: "handsome-pro-nib", sans-serif;
+font-weight: 400;
+font-style: normal;
+		font-size: 115px;
+		color: darkolivegreen;
+		
+  	}
+	  
+    .mobile-only {
+		
+		display:block;
+   
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+		
+		display: none;
+  
+    }
+
+} /* don't forget to close the styles for mobile/
