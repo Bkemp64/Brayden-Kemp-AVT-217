@@ -1,0 +1,154 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url(https://db.onlinewebfonts.com/c/2da952d097bffd198ec0f0aa3fdd6804?family=JejuHallasan);
+
+@font-face {
+    font-family: "JejuHallasan";
+    src: url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.eot");
+    src: url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/2da952d097bffd198ec0f0aa3fdd6804.svg#JejuHallasan")format("svg");
+}
+
+#container {
+
+	margin-top: 40vh;
+}
+
+
+#logo {
+	
+}
+
+
+body {
+	background-color: #8B3232;
+	font-family: "JejuHallasan";
+}
+
+#sale{
+   display: block;
+	justify-content: center;
+  margin: 25px 700px;
+  
+}
+
+
+#movement {
+	
+	float: right;
+	letter-spacing: 4px; 
+	padding: 0px 0% 0 0; 
+	font-family: "jersey 20";
+	font-size: 85px;
+	
+}
+
+#home  {
+	font-size: 55px;
+	color: black;
+}
+
+#about  {
+	font-size: 55px;
+	color: black;
+}
+
+#music  {
+	font-size: 55px;
+	color: black;
+}
+
+#tour  {
+	font-size: 55px;
+	color: black;
+}
+
+hr {
+	border: 2px solid black;
+
+}
+
+#welcome {
+	font-size: 100px;
+	margin: 50px 110px;
+	vertical-align: middle;
+    float: left;
+    text-align: center; 
+}
+	
+ul {
+	overflow: hidden;
+	list-style-type: none;
+	text-align: right;
+}
+
+li {
+	
+	text-align: right;
+	display: inline;
+	font-size: 58px;
+}
+
+li a {
+	
+}
+
+
+
+#introduction {
+	font-size: 35px;
+	margin: 50px 50px;
+	text-align: center;
+	font-family: "jersey 20";
+	vertical-align: middle;
+	float: left;
+	
+}
+
+
+#right-image-home {
+	
+position: relative;
+margin: -995.8px 0px 8% 100%;
+height: 1000px;
+}
+
+#left-image-home {
+	position:relative;
+	left: 0%;
+	height: 1000px;
+}
+
+
+#text {
+	text-align: center;
+	
+}
+
+#socials {
+	
+	font-size: 30px;
+	
+
+}
+
+
+#social-logos {
+
+	display: block;
+	justify-content: center;
+  margin: 0px 441px ;
+}
+
+.img-left {
+	float: left;
+}
+
+.img-right {
+	float: right;
+}
+
