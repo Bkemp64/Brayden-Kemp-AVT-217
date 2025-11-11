@@ -32,7 +32,7 @@ body {
 #sale{
    display: block;
 	justify-content: center;
-  margin: 25px 700px;
+  margin: 30px 700px;
   
 }
 
@@ -74,10 +74,9 @@ hr {
 
 #welcome {
 	font-size: 100px;
-	margin: 50px 110px;
-	vertical-align: middle;
-    float: left;
-    text-align: center; 
+	 text-align: left;
+	margin: -250px 0px 0px 0px;
+	
 }
 	
 ul {
@@ -100,27 +99,9 @@ li a {
 
 
 #introduction {
+	text-align: left;
 	font-size: 35px;
-	margin: 50px 50px;
-	text-align: center;
 	font-family: "jersey 20";
-	vertical-align: middle;
-	float: left;
-	
-}
-
-
-#right-image-home {
-	
-position: relative;
-margin: -995.8px 0px 8% 100%;
-height: 1000px;
-}
-
-#left-image-home {
-	position:relative;
-	left: 0%;
-	height: 1000px;
 }
 
 
@@ -129,11 +110,80 @@ height: 1000px;
 	
 }
 
+.column0 {
+	float: right;
+	height: 15px;
+	width: 17.43%;
+	padding: 5px;
+	margin: -270px 0px 0px;
+}
+
+
+.column1 {
+	float: left;
+	width: 33.43%;
+	padding: 5px;
+}
+
+.column2{
+	float: right;
+	width: 17.43%;
+	padding: 5px;
+	margin: -450px 0px 0px;
+}
+
+.row::after {
+	content: "";
+	clear: both;
+	display: inline;
+	width: 5px;
+}
+
+.text {
+	text-align: left;
+	margin-right: -115px;
+}
+
+
+
+#About-us {
+	font-size: 100px;
+	
+	
+    
+    text-align: left;
+}
+
+
+#About-us-text {
+	
+	text-align: left;
+	font-size: 35px;
+	font-family: "jersey 20";
+	
+}
+
+#home-right {
+	height: 500px
+}
+
+p {
+	text-align: center;
+	text-indent: 40px
+}
+
+#band-photo {
+	
+	display: block;
+	justify-content: center;
+	float: center;
+  margin: 55px 700px;
+}
+
 #socials {
 	
 	font-size: 30px;
 	
-
 }
 
 
@@ -144,11 +194,7 @@ height: 1000px;
   margin: 0px 441px ;
 }
 
-.img-left {
-	float: left;
-}
-
-.img-right {
-	float: right;
+.highlight {
+	color:  #8B3232;
 }
 
