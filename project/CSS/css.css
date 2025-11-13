@@ -110,6 +110,17 @@ li a {
 	
 }
 
+h3{
+	font-family: "JejuHallasan";
+	font-size: 35px;
+}
+
+h4{
+	font-family: "JejuHallasan";
+	color: white;
+	font-size: 22px;
+}
+
 .column0 {
 	float: right;
 	height: 15px;
@@ -132,6 +143,12 @@ li a {
 	margin: -450px 0px 0px;
 }
 
+.column3{
+	
+	text-align: center;
+	margin: -456px 0px 0px 0px;
+}
+
 .row::after {
 	content: "";
 	clear: both;
@@ -148,12 +165,14 @@ li a {
 
 #About-us {
 	font-size: 100px;
-	
-	
-    
     text-align: left;
 }
 
+
+#songs {
+	font-size: 100px;
+	text-align:center;
+}
 
 #About-us-text {
 	
@@ -161,6 +180,44 @@ li a {
 	font-size: 35px;
 	font-family: "jersey 20";
 	
+}
+
+#song-left-1 {
+	height: 200px;
+	padding: 5px;
+	margin: -19px 0px 0px 0px;
+}
+
+#song-left-2 {
+	height: 200px;
+	padding: 5px;
+}
+
+#song-left-3 {
+	height: 200px;
+	padding: 5px;
+	float: left;
+}
+
+#song-right-1 {
+	height: 200px;
+	padding: 5px;
+	margin: -420px 0px 0px 0px;
+	float: right;
+}
+
+#song-right-2 {
+	height: 200px;
+	padding: 5px;
+	margin: -400px 0px 0px 0px;
+	float: right;
+}
+
+#song-right-3 {
+	height: 200px;
+	padding: 5px;
+	margin: -370px 0px 0px -220px;
+	float: right;
 }
 
 #home-right {
@@ -179,6 +236,84 @@ p {
 	float: center;
   margin: 55px 700px;
 }
+
+#song-middle {
+	text-align: center;
+}
+
+#bottom-star {
+	margin: 0px 500px 0px 0px
+}
+
+#Song-Title-1-left {
+	margin: -129px 0px 0px 325px;
+	float: left;
+}
+
+#additive-left-1 {
+	margin: -90px 0px 0px 335px;
+	float: left;
+}
+
+#Song-Title-2-left {
+	margin: -159px 0px 0px 325px;
+	float: left;
+}
+
+#additive-left-2 {
+	margin: -115px 0px 0px 335px;
+	float: left;
+}
+
+#Song-Title-3-left {
+	margin: 75px 0px 0px 110px;
+	float: left;
+}
+
+#additive-left-3 {
+	margin: 115px 0px 0px -173px;
+	float: left;
+}
+
+#Song-Title-1-right {
+	margin: -325px 325px 0px 0px;
+	float: right;
+}
+
+#additive-right-1 {
+	margin: -290px 365px 0px 0px;
+	float: right;
+}
+
+#Song-Title-2-right {
+	margin: -319px 340px 0px 0px;
+	float: right;
+}
+
+#additive-right-2 {
+	margin: -265px 365px 0px 0px;
+	float: right;
+}
+
+#Song-Title-3-right {
+	margin: -275px 300px 0px 0px;
+	float: right;
+}
+
+#additive-right-3 {
+	margin: -226px 325px 0px 0px;
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+
 
 #socials {
 	
