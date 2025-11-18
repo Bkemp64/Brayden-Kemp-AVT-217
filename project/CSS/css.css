@@ -32,9 +32,11 @@ body {
 #sale{
    display: block;
 	justify-content: center;
-  margin: 30px 700px;
+  margin: 30px 600px;
   
 }
+
+
 
 
 #movement {
@@ -74,7 +76,7 @@ hr {
 
 #welcome {
 	font-size: 100px;
-	 text-align: left;
+	 text-align: center;
 	margin: -250px 0px 0px 0px;
 	
 }
@@ -99,7 +101,7 @@ li a {
 
 
 #introduction {
-	text-align: left;
+	text-align: center;
 	font-size: 35px;
 	font-family: "jersey 20";
 }
@@ -126,7 +128,7 @@ h4{
 	height: 15px;
 	width: 17.43%;
 	padding: 5px;
-	margin: -270px 0px 0px;
+	margin: -270px 17px 0px 0px;
 }
 
 
@@ -168,6 +170,15 @@ h4{
     text-align: left;
 }
 
+#about-left {
+	margin-right: -95px;
+	position: absolute;
+	margin-top: 70px;
+}
+
+#about-right {
+	margin-left: -61px;
+}
 
 #songs {
 	font-size: 100px;
@@ -176,9 +187,10 @@ h4{
 
 #About-us-text {
 	
-	text-align: left;
+	text-align: center;
 	font-size: 35px;
 	font-family: "jersey 20";
+	
 	
 }
 
@@ -221,7 +233,12 @@ h4{
 }
 
 #home-right {
-	height: 500px
+	height: 500px;
+	margin: 0px 5px 0px -48px;
+}
+
+#home-left {
+	position: absolute;
 }
 
 p {
@@ -234,7 +251,7 @@ p {
 	display: block;
 	justify-content: center;
 	float: center;
-  margin: 55px 700px;
+  margin: 55px 500px;
 }
 
 #song-middle {
