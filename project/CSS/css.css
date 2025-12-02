@@ -30,9 +30,10 @@ body {
 }
 
 #sale{
-   display: block;
-	justify-content: center;
-  margin: 30px 600px;
+	
+	height: 300px;
+	width: 370px;
+  
   
 }
 
@@ -124,6 +125,13 @@ h4{
 }
 
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
 .column0 {
 	float: right;
 	height: 15px;
@@ -164,7 +172,61 @@ h4{
 	margin-right: -115px;
 }
 
+.my-box {
+    width: 310px; /* Set the width of the box */
+    height: 150px; /* Set the height of the box */
+    background-color: black; /* Set a background color */
+	color: white;
+    align-content: center;
+	font-size: 120px;
+    padding: 10px; /* Add padding around the content */
+    margin: 200px 0  0 750px; /* Add margin outside the box */
+    
+}
 
+.my-box-2 {
+    width: 1830px; /* Set the width of the box */
+    height: 850px; /* Set the height of the box */
+    background-color: black; /* Set a background color */
+	color: white;
+  
+	font-size: 70px;
+	
+    padding: 10px; /* Add padding around the content */
+    margin: 200px 400px  0 20px; /* Add margin outside the box */
+    
+}
+
+#tour_location  {
+ font-size: 70px;
+
+	text-align: center;
+	margin-top: -40px;
+}
+
+#tour-locations-1 {
+	font-size: 5px;
+	text-decoration: underline;
+	text-align: left;
+	margin: 0 0 0 0px
+	
+}
+
+#tour-locations-2 {
+	font-size: 8px;
+	text-decoration: underline;
+	text-align: center;
+	margin: -640px 0 0 -90px
+	
+}
+
+#tour-locations-3 {
+	font-size: 10px;
+	text-decoration: underline;
+	text-align: right;
+	margin: -640px -00px 0 0;
+	
+}
 
 #About-us {
 	font-size: 100px;
@@ -179,6 +241,8 @@ h4{
 
 #about-right {
 	margin-left: -61px;
+	position: absolute;
+	margin-right: 89px;
 }
 
 #songs {
@@ -234,7 +298,8 @@ h4{
 }
 
 #home-right {
-	height: 500px;
+	position: absolute;
+	height: 550px;
 	margin: 0px 5px 0px -48px;
 }
 
@@ -249,10 +314,13 @@ p {
 
 #band-photo {
 	
-	display: block;
-	justify-content: center;
-	float: center;
-  margin: 55px 500px;
+
+	
+	height: 300px;
+	width: 370px;
+		
+	
+  
 }
 
 #song-middle {
@@ -337,6 +405,27 @@ p {
 }
 
 
+a:link  {
+	
+	color:blue;
+	text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover  {
+	
+	color:yellow;
+	text-decoration: underline;
+}
+
+a:active  {
+	
+	color:orange;
+}
+
 
 #socials {
 	
@@ -356,3 +445,6 @@ p {
 	color:  #8B3232;
 }
 
+.highlight-2 {
+	color:  black;
+}
